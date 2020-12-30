@@ -17,12 +17,19 @@
 
 $planetData	= array(
 	1 => array(
-        'temp' => mt_rand(220, 260),	
-        'fields' => mt_rand(95, 108),
+        'temp' => mt_rand(100000, 1000000),	
+        'fields' => mt_rand(1, 2),
         'color' => '#FF0000',      
         'image' => array(
-            'trocken' => mt_rand(1, 10), 
-            'wuesten' => mt_rand(1, 4))),
+             'etoilenaine' => mt_rand(1, 8),          
+	     'etoilegeanterouge' => mt_rand(1, 2),    
+	     'etoilegeantebleu' => mt_rand(1, 4),     
+	     'etoilemega' => mt_rand(1, 2),           
+	     'quasar' => mt_rand(1, 2),               
+	     'nebuleuse' => mt_rand(1, 2),            
+	     'vortexalien' => mt_rand(1, 2),          
+	     'tv' => mt_rand(1, 2),                   
+             'tn' => mt_rand(1, 2))),                 
             
 	2 => array(
         'temp' => mt_rand(170, 210),	
